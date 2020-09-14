@@ -523,4 +523,91 @@ body {
 #join_our_community_section #one_grid_join_our_community_section img {
   width: 100%;
 }
+
+#freebees_section {
+  margin: 70px auto 0px auto;
+}
+
+#freebees_section #title_freebees_section {
+  text-align: center;
+}
+
+#freebees_section #title_freebees_section h1 {
+  color: #009b4e;
+}
+
+#freebees_section #tabs_freebees_section {
+  overflow: auto;
+  margin-top: 40px;
+}
+
+#freebees_section #tabs_freebees_section #buttons_navigation_tabs {
+  width: 80%;
+  margin: 10px auto 0px auto;
+}
+
+#freebees_section #tabs_freebees_section #buttons_navigation_tabs button {
+  width: 19.7%;
+  height: 40px;
+  margin: 0;
+  border: 2px solid #009b4e;
+  background-color: #f2f2f2;
+  color: #008141;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  border-radius: 0px;
+  cursor: pointer;
+  padding: 5px 10px 5px 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+#freebees_section #tabs_freebees_section #buttons_navigation_tabs button:hover {
+  background-color: #009b4e;
+  color: #fff;
+}
+
+#freebees_section #tabs_freebees_section #buttons_navigation_tabs button.active_tab {
+  background-color: #c5e9c5;
+  border-bottom: 3px solid #009b4e;
+}
+
+#freebees_section #tabs_freebees_section .tabcontent {
+  display: none;
+  background-color: transparent;
+  opacity: 0.9;
+}
+
+#freebees_section #tabs_freebees_section .tabcontent #get_update_freebees, #freebees_section #tabs_freebees_section .tabcontent #logistical_support_update_freebees {
+  overflow: auto;
+  width: 100%;
+  height: 440px;
+  background: url("../images/tracking_map_freebees.jpg") top center/cover;
+}
+
+#freebees_section #tabs_freebees_section .tabcontent #get_update_freebees #card_get_update_freebees, #freebees_section #tabs_freebees_section .tabcontent #logistical_support_update_freebees #card_get_update_freebees {
+  float: right;
+  width: 35%;
+  height: 330px;
+  margin: 55px 8% 0px 0px;
+  background-color: #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 10px 20px #aaa;
+          box-shadow: 0 10px 20px #aaa;
+}
+
+#freebees_section #tabs_freebees_section .tabcontent #get_update_freebees #card_get_update_freebees:hover, #freebees_section #tabs_freebees_section .tabcontent #logistical_support_update_freebees #card_get_update_freebees:hover {
+  -webkit-box-shadow: 0 0px 0px #aaa;
+          box-shadow: 0 0px 0px #aaa;
+}
+
+#freebees_section #tabs_freebees_section .tabcontent #logistical_support_update_freebees {
+  background: url("../images/logistical_support.jpg") top center/cover;
+}
+
+#lastest_news_section {
+  margin: 70px auto 0px auto;
+}
 /*# sourceMappingURL=main.css.map */

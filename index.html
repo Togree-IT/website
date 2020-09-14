@@ -388,7 +388,92 @@
 <!-- End of join our community section -->
 
 
+<!-- Lastest News section -->
 
+<div id="freebees_section">
+    <div id="title_freebees_section">
+        <h1> We also offer many freebees </h1>
+    </div>
+    <div id="tabs_freebees_section">
+        <div id="buttons_navigation_tabs">
+            <button class="tablinks" onclick="openTab(event, 'live_updates')" id="defaultOpen"> Live Updates </button>
+            <button class="tablinks" onclick="openTab(event, 'stock_market_insight')"> Stock Market Insights </button>
+            <button class="tablinks" onclick="openTab(event, 'financial_support')"> Financial Support </button>
+            <button class="tablinks" onclick="openTab(event, 'logistical_support')"> Logistical Support </button>
+            <button class="tablinks" onclick="openTab(event, 'technical_support')"> Technical Support </button>
+        </div>
+
+        <div id="live_updates" class="tabcontent">
+            <div id="get_update_freebees">
+                <div id="card_get_update_freebees">
+                    <div id="">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="stock_market_insight" class="tabcontent">
+            <div id="get_update_freebees">
+                <div id="card_get_update_freebees">
+            
+                </div>
+            </div>
+        </div>
+        <div id="financial_support" class="tabcontent">
+            <div id="get_update_freebees">
+                <div id="card_get_update_freebees">
+            
+                </div>
+            </div>
+        </div>
+        <div id="logistical_support" class="tabcontent">
+            <div id="logistical_support_update_freebees">
+                <div id="card_get_update_freebees">
+            
+                </div>
+            </div>
+        </div>
+        <div id="technical_support" class="tabcontent">
+            <div id="get_update_freebees">
+                <div id="card_get_update_freebees">
+            
+                </div>
+            </div>
+        </div>
+
+        <!-- Script to hide and show various tabs -->
+        <script>
+            function openTab(evt, tabName) {
+                var i, tabcontent, tablinks;
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                }
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace("active_tab", "");
+                }
+                document.getElementById(tabName).style.display = "block";
+                evt.currentTarget.className += " active_tab";
+            }
+            document.getElementById("defaultOpen").click();
+        </script>
+    </div>
+    
+</div>
+
+<!-- End of Lastest News section -->
+
+
+<!-- Lastest News section -->
+
+    <div id="lastest_news_section">
+        <div id="">
+
+        </div>
+    </div>
+
+<!-- End of Lastest News section -->
 
 </body>
 </html>
