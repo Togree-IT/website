@@ -215,10 +215,17 @@ body {
 
 #grid_below_header_home_page #one_grid_below_header_home_page {
   padding-bottom: 10px;
+  border: 1px solid #fff;
   border-radius: 10px;
   background-color: #fff;
   -webkit-box-shadow: 0 20px 40px #e6e6e6;
           box-shadow: 0 20px 40px #e6e6e6;
+}
+
+#grid_below_header_home_page #one_grid_below_header_home_page:hover {
+  -webkit-box-shadow: 0 0px 0px #e6e6e6;
+          box-shadow: 0 0px 0px #e6e6e6;
+  border: 1px solid #e6e6e6;
 }
 
 #grid_below_header_home_page #one_grid_below_header_home_page #header_one_grid_home_page_below_header {
@@ -337,6 +344,7 @@ body {
 #statistics_home_section #circles_statistics_home_section #one_grid_circles_statistics:hover {
   -webkit-box-shadow: 0 20px 40px #e6e6e6;
           box-shadow: 0 20px 40px #e6e6e6;
+  border: 2px solid #ddd;
 }
 
 #statistics_home_section #circles_statistics_home_section #one_grid_circles_statistics #statistics_value {
@@ -568,6 +576,7 @@ body {
 
 #freebees_section #tabs_freebees_section #buttons_navigation_tabs button:hover {
   background-color: #009b4e;
+  border-bottom: 3px solid #fff;
   color: #fff;
 }
 
@@ -582,14 +591,14 @@ body {
   opacity: 0.9;
 }
 
-#freebees_section #tabs_freebees_section .tabcontent #get_update_freebees, #freebees_section #tabs_freebees_section .tabcontent #logistical_support_update_freebees {
+#freebees_section #tabs_freebees_section .tabcontent #get_update_freebees, #freebees_section #tabs_freebees_section .tabcontent #stock_market_update_freebees, #freebees_section #tabs_freebees_section .tabcontent #financial_support_get_update_freebees, #freebees_section #tabs_freebees_section .tabcontent #logistical_support_update_freebees, #freebees_section #tabs_freebees_section .tabcontent #technical_support_get_update_freebees {
   overflow: auto;
   width: 100%;
   height: 440px;
   background: url("../images/tracking_map_freebees.jpg") top center/cover;
 }
 
-#freebees_section #tabs_freebees_section .tabcontent #get_update_freebees #card_get_update_freebees, #freebees_section #tabs_freebees_section .tabcontent #logistical_support_update_freebees #card_get_update_freebees {
+#freebees_section #tabs_freebees_section .tabcontent #get_update_freebees #card_get_update_freebees, #freebees_section #tabs_freebees_section .tabcontent #stock_market_update_freebees #card_get_update_freebees, #freebees_section #tabs_freebees_section .tabcontent #financial_support_get_update_freebees #card_get_update_freebees, #freebees_section #tabs_freebees_section .tabcontent #logistical_support_update_freebees #card_get_update_freebees, #freebees_section #tabs_freebees_section .tabcontent #technical_support_get_update_freebees #card_get_update_freebees {
   float: right;
   width: 35%;
   height: 330px;
@@ -601,34 +610,61 @@ body {
           box-shadow: 0 10px 20px #aaa;
 }
 
-#freebees_section #tabs_freebees_section .tabcontent #get_update_freebees #card_get_update_freebees:hover, #freebees_section #tabs_freebees_section .tabcontent #logistical_support_update_freebees #card_get_update_freebees:hover {
+#freebees_section #tabs_freebees_section .tabcontent #get_update_freebees #card_get_update_freebees:hover, #freebees_section #tabs_freebees_section .tabcontent #stock_market_update_freebees #card_get_update_freebees:hover, #freebees_section #tabs_freebees_section .tabcontent #financial_support_get_update_freebees #card_get_update_freebees:hover, #freebees_section #tabs_freebees_section .tabcontent #logistical_support_update_freebees #card_get_update_freebees:hover, #freebees_section #tabs_freebees_section .tabcontent #technical_support_get_update_freebees #card_get_update_freebees:hover {
   -webkit-box-shadow: 0 0px 0px #aaa;
           box-shadow: 0 0px 0px #aaa;
 }
 
-#freebees_section #tabs_freebees_section .tabcontent #get_update_freebees #card_get_update_freebees #header_card_get_update_freebees, #freebees_section #tabs_freebees_section .tabcontent #logistical_support_update_freebees #card_get_update_freebees #header_card_get_update_freebees {
+#freebees_section #tabs_freebees_section .tabcontent #get_update_freebees #card_get_update_freebees #header_card_get_update_freebees, #freebees_section #tabs_freebees_section .tabcontent #stock_market_update_freebees #card_get_update_freebees #header_card_get_update_freebees, #freebees_section #tabs_freebees_section .tabcontent #financial_support_get_update_freebees #card_get_update_freebees #header_card_get_update_freebees, #freebees_section #tabs_freebees_section .tabcontent #logistical_support_update_freebees #card_get_update_freebees #header_card_get_update_freebees, #freebees_section #tabs_freebees_section .tabcontent #technical_support_get_update_freebees #card_get_update_freebees #header_card_get_update_freebees {
   overflow: auto;
   margin: 5px 0px 10px 0px;
 }
 
-#freebees_section #tabs_freebees_section .tabcontent #get_update_freebees #card_get_update_freebees #header_card_get_update_freebees #icon_card_get_update_freebees, #freebees_section #tabs_freebees_section .tabcontent #logistical_support_update_freebees #card_get_update_freebees #header_card_get_update_freebees #icon_card_get_update_freebees {
+#freebees_section #tabs_freebees_section .tabcontent #get_update_freebees #card_get_update_freebees #header_card_get_update_freebees #icon_card_get_update_freebees, #freebees_section #tabs_freebees_section .tabcontent #stock_market_update_freebees #card_get_update_freebees #header_card_get_update_freebees #icon_card_get_update_freebees, #freebees_section #tabs_freebees_section .tabcontent #financial_support_get_update_freebees #card_get_update_freebees #header_card_get_update_freebees #icon_card_get_update_freebees, #freebees_section #tabs_freebees_section .tabcontent #logistical_support_update_freebees #card_get_update_freebees #header_card_get_update_freebees #icon_card_get_update_freebees, #freebees_section #tabs_freebees_section .tabcontent #technical_support_get_update_freebees #card_get_update_freebees #header_card_get_update_freebees #icon_card_get_update_freebees {
   float: left;
   width: 8%;
 }
 
-#freebees_section #tabs_freebees_section .tabcontent #get_update_freebees #card_get_update_freebees #header_card_get_update_freebees #icon_card_get_update_freebees img, #freebees_section #tabs_freebees_section .tabcontent #logistical_support_update_freebees #card_get_update_freebees #header_card_get_update_freebees #icon_card_get_update_freebees img {
+#freebees_section #tabs_freebees_section .tabcontent #get_update_freebees #card_get_update_freebees #header_card_get_update_freebees #icon_card_get_update_freebees img, #freebees_section #tabs_freebees_section .tabcontent #stock_market_update_freebees #card_get_update_freebees #header_card_get_update_freebees #icon_card_get_update_freebees img, #freebees_section #tabs_freebees_section .tabcontent #financial_support_get_update_freebees #card_get_update_freebees #header_card_get_update_freebees #icon_card_get_update_freebees img, #freebees_section #tabs_freebees_section .tabcontent #logistical_support_update_freebees #card_get_update_freebees #header_card_get_update_freebees #icon_card_get_update_freebees img, #freebees_section #tabs_freebees_section .tabcontent #technical_support_get_update_freebees #card_get_update_freebees #header_card_get_update_freebees #icon_card_get_update_freebees img {
   width: 100%;
 }
 
-#freebees_section #tabs_freebees_section .tabcontent #get_update_freebees #card_get_update_freebees #header_card_get_update_freebees #title_card_get_update_freebees, #freebees_section #tabs_freebees_section .tabcontent #logistical_support_update_freebees #card_get_update_freebees #header_card_get_update_freebees #title_card_get_update_freebees {
+#freebees_section #tabs_freebees_section .tabcontent #get_update_freebees #card_get_update_freebees #header_card_get_update_freebees #title_card_get_update_freebees, #freebees_section #tabs_freebees_section .tabcontent #stock_market_update_freebees #card_get_update_freebees #header_card_get_update_freebees #title_card_get_update_freebees, #freebees_section #tabs_freebees_section .tabcontent #financial_support_get_update_freebees #card_get_update_freebees #header_card_get_update_freebees #title_card_get_update_freebees, #freebees_section #tabs_freebees_section .tabcontent #logistical_support_update_freebees #card_get_update_freebees #header_card_get_update_freebees #title_card_get_update_freebees, #freebees_section #tabs_freebees_section .tabcontent #technical_support_get_update_freebees #card_get_update_freebees #header_card_get_update_freebees #title_card_get_update_freebees {
   float: left;
   padding: 14px 1% 0px 5%;
   font-size: 20px;
   font-weight: bold;
 }
 
+#freebees_section #tabs_freebees_section .tabcontent #get_update_freebees #card_get_update_freebees #get_more_info_button_card, #freebees_section #tabs_freebees_section .tabcontent #stock_market_update_freebees #card_get_update_freebees #get_more_info_button_card, #freebees_section #tabs_freebees_section .tabcontent #financial_support_get_update_freebees #card_get_update_freebees #get_more_info_button_card, #freebees_section #tabs_freebees_section .tabcontent #logistical_support_update_freebees #card_get_update_freebees #get_more_info_button_card, #freebees_section #tabs_freebees_section .tabcontent #technical_support_get_update_freebees #card_get_update_freebees #get_more_info_button_card {
+  width: 100%;
+  height: 50px;
+  margin: 25px 0px 0px 0px;
+  background-color: #009b4e;
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+#freebees_section #tabs_freebees_section .tabcontent #get_update_freebees #card_get_update_freebees #get_more_info_button_card:hover, #freebees_section #tabs_freebees_section .tabcontent #stock_market_update_freebees #card_get_update_freebees #get_more_info_button_card:hover, #freebees_section #tabs_freebees_section .tabcontent #financial_support_get_update_freebees #card_get_update_freebees #get_more_info_button_card:hover, #freebees_section #tabs_freebees_section .tabcontent #logistical_support_update_freebees #card_get_update_freebees #get_more_info_button_card:hover, #freebees_section #tabs_freebees_section .tabcontent #technical_support_get_update_freebees #card_get_update_freebees #get_more_info_button_card:hover {
+  background-image: -webkit-gradient(linear, left top, right top, from(#009b4e), to(#00bd1f));
+  background-image: linear-gradient(to right, #009b4e, #00bd1f);
+}
+
+#freebees_section #tabs_freebees_section .tabcontent #stock_market_update_freebees {
+  background: url("../images/stock_market.jpg") top center/cover;
+}
+
+#freebees_section #tabs_freebees_section .tabcontent #financial_support_get_update_freebees {
+  background: url("../images/financial_support.jpg") top center/cover;
+}
+
 #freebees_section #tabs_freebees_section .tabcontent #logistical_support_update_freebees {
   background: url("../images/logistical_support.jpg") top center/cover;
+}
+
+#freebees_section #tabs_freebees_section .tabcontent #technical_support_get_update_freebees {
+  background: url("../images/technical_support.jpg") top center/cover;
 }
 
 #lastest_news_section {
