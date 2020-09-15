@@ -1,6 +1,6 @@
 /* Sass Maps*/
 $colors : (
-    light_green_bg: #c5e9c5,
+    light_green_bg: #cef0ce,
     green_color: #009b4e,
     gray_bg: #f8f8f8
 );
@@ -525,21 +525,35 @@ body {
 
 
 
-#join_our_community_section {
-    margin: 70px auto 0px auto;
-    padding: 50px 10% 60px 10%;
-    display: grid;
-    grid-column-gap: 4%;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+#products_section {
+    width: 100%;
+    margin: 60px auto 0px auto;
+    padding: 20px 0px 60px 0px;
     background-color: #f7f7f7;
 
-    #one_grid_join_our_community_section {
+    #title_products_section {
+        width: 40%;
+        margin: 0px auto 0px auto;
+        text-align: center;
+    }
 
-        img {
-            width: 100%;
+    #products_list_products_sections {
+        width: 85%;
+        margin: 40px auto 0px auto;
+        display: grid;
+        grid-column-gap: 2%;
+        grid-row-gap: 20px;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+
+        #one_products__sections {
+            height: 200px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
         }
     }
 }
+
 
 
 
@@ -670,6 +684,24 @@ body {
             #technical_support_get_update_freebees {
                 background: url('../images/technical_support.jpg') top center / cover;
             }
+        }
+    }
+}
+
+
+
+#join_our_community_section {
+    margin: 0px auto 0px auto;
+    padding: 70px 10% 80px 10%;
+    display: grid;
+    grid-column-gap: 4%;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    background-color: #f7f7f7;
+
+    #one_grid_join_our_community_section {
+
+        img {
+            width: 100%;
         }
     }
 }
