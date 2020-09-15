@@ -326,10 +326,11 @@ body {
 
 #statistics_home_section #circles_statistics_home_section #one_grid_circles_statistics {
   overflow: auto;
-  padding: 40px 0 20px 0;
-  border: 1px solid #ddd;
+  padding-top: 34%;
+  padding-bottom: 29%;
+  border: 10px solid #eee;
   text-align: center;
-  border-radius: 20px;
+  border-radius: 50%;
   cursor: pointer;
 }
 
@@ -339,6 +340,7 @@ body {
 }
 
 #statistics_home_section #circles_statistics_home_section #one_grid_circles_statistics #statistics_value {
+  margin-top: 0px;
   color: #888;
   font-size: 50px;
   font-weight: bold;
@@ -592,6 +594,7 @@ body {
   width: 35%;
   height: 330px;
   margin: 55px 8% 0px 0px;
+  padding: 10px 1.5% 10px 1.5%;
   background-color: #fff;
   border-radius: 10px;
   -webkit-box-shadow: 0 10px 20px #aaa;
@@ -601,6 +604,27 @@ body {
 #freebees_section #tabs_freebees_section .tabcontent #get_update_freebees #card_get_update_freebees:hover, #freebees_section #tabs_freebees_section .tabcontent #logistical_support_update_freebees #card_get_update_freebees:hover {
   -webkit-box-shadow: 0 0px 0px #aaa;
           box-shadow: 0 0px 0px #aaa;
+}
+
+#freebees_section #tabs_freebees_section .tabcontent #get_update_freebees #card_get_update_freebees #header_card_get_update_freebees, #freebees_section #tabs_freebees_section .tabcontent #logistical_support_update_freebees #card_get_update_freebees #header_card_get_update_freebees {
+  overflow: auto;
+  margin: 5px 0px 10px 0px;
+}
+
+#freebees_section #tabs_freebees_section .tabcontent #get_update_freebees #card_get_update_freebees #header_card_get_update_freebees #icon_card_get_update_freebees, #freebees_section #tabs_freebees_section .tabcontent #logistical_support_update_freebees #card_get_update_freebees #header_card_get_update_freebees #icon_card_get_update_freebees {
+  float: left;
+  width: 8%;
+}
+
+#freebees_section #tabs_freebees_section .tabcontent #get_update_freebees #card_get_update_freebees #header_card_get_update_freebees #icon_card_get_update_freebees img, #freebees_section #tabs_freebees_section .tabcontent #logistical_support_update_freebees #card_get_update_freebees #header_card_get_update_freebees #icon_card_get_update_freebees img {
+  width: 100%;
+}
+
+#freebees_section #tabs_freebees_section .tabcontent #get_update_freebees #card_get_update_freebees #header_card_get_update_freebees #title_card_get_update_freebees, #freebees_section #tabs_freebees_section .tabcontent #logistical_support_update_freebees #card_get_update_freebees #header_card_get_update_freebees #title_card_get_update_freebees {
+  float: left;
+  padding: 14px 1% 0px 5%;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 #freebees_section #tabs_freebees_section .tabcontent #logistical_support_update_freebees {
