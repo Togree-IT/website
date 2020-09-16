@@ -359,6 +359,15 @@ body {
   font-size: 18px;
 }
 
+#statistics_home_section hr {
+  width: 90%;
+  height: 0.5px;
+  margin-top: 40px;
+  color: blue;
+  background-color: #e5e5e5;
+  border: none;
+}
+
 #we_help_build_your_store {
   overflow: auto;
   margin: 60px auto 0px auto;
@@ -523,7 +532,7 @@ body {
   width: 100%;
   margin: 60px auto 0px auto;
   padding: 20px 0px 60px 0px;
-  background-color: #f7f7f7;
+  background-color: #fafafa;
 }
 
 #products_section #title_products_section {
@@ -534,19 +543,49 @@ body {
 
 #products_section #products_list_products_sections {
   width: 85%;
-  margin: 40px auto 0px auto;
+  margin: 30px auto 0px auto;
   display: -ms-grid;
   display: grid;
   grid-column-gap: 2%;
-  grid-row-gap: 20px;
+  grid-row-gap: 40px;
   -ms-grid-columns: (minmax(0, 1fr))[4];
       grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
-#products_section #products_list_products_sections #one_products__sections {
-  height: 200px;
+#products_section #products_list_products_sections #one_products_sections {
+  cursor: pointer;
+}
+
+#products_section #products_list_products_sections #one_products_sections #photo_products_section {
   border: 1px solid #ccc;
   border-radius: 10px;
+  text-align: center;
+}
+
+#products_section #products_list_products_sections #one_products_sections #photo_products_section:hover {
+  -webkit-box-shadow: 0 10px 20px #ddd;
+          box-shadow: 0 10px 20px #ddd;
+}
+
+#products_section #products_list_products_sections #one_products_sections #photo_products_section img {
+  width: 80%;
+}
+
+#products_section #products_list_products_sections #one_products_sections #name_products_section, #products_section #products_list_products_sections #one_products_sections #description_products_section {
+  margin: 10px 0px 0px 0px;
+  padding: 0px 3% 0px 4%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#products_section #products_list_products_sections #one_products_sections #description_products_section {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+#products_section #view_all_products_button {
+  width: 14%;
+  margin: 50px auto 0px auto;
 }
 
 #freebees_section {
