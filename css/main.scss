@@ -1,3 +1,4 @@
+
 /* Sass Maps*/
 $colors : (
     light_green_bg: #cef0ce,
@@ -5,6 +6,8 @@ $colors : (
     gray_bg: #f8f8f8,
     footer_bg_color: #00041a
 );
+
+
 
 /* Functions */
 @function color($color_name) {
@@ -940,7 +943,7 @@ body {
     margin: 80px 0px 0px 0px;
 
     #title_newsletter_section {
-        width: 50%;
+        width: 44%;
         margin: 0px auto 0px auto;
         text-align: center;
 
@@ -950,30 +953,35 @@ body {
     }
 
     #input_field_newsletter_section {
-        overflow: auto;
-        width: 60%;
+        width: 50%;
         margin: 40px auto 0px auto;
-        padding: 0;
-        border: 2px solid color(green_color);
+        padding: 0px 0.6px 0px 0px;
         border-radius: 10px;
 
         #email_input_field_newsletter {
             width: 80%;
             height: 50px;
-            padding: 10px 2% 10px 2%;
+            padding: 10px 3% 10px 2%;
             border-radius: 10px 0px 0px 10px;
             border: none;
             font-size: 20px;
+            border: 2px solid #bbb;
+
+            &:focus {
+                border: 2px solid color(green_color);
+            }
         }
 
         #button_newsletter_section {
             float: right;
-            width: 18%;
+            width: 19.2%;
             height: 50px;
             background-color: color(green_color);
             border: none;
+            border-radius: 0px 8px 8px 0px;
             color: #fff;
             cursor: pointer;
+            font-size: 16px;
 
             &:hover {
                 background-color: #00b159;
@@ -987,8 +995,56 @@ body {
 
 #footer_section {
     width: 100%;
-    height: 550px;
     margin: 80px 0px 0px 0px;
+    padding: 80px 0px 0px 0px;
     background-color: color(footer_bg_color);
     clip-path: polygon(32% 7%, 100% 0, 100% 100%, 0 100%, 0 0);
+
+    #grid_footer_section {
+        width: 92%;
+        margin: 0px auto 0px auto;
+        display: grid;
+        grid-column-gap: 2%;
+        grid-row-gap: 0px;
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+
+        #one_grid_footer_section {
+            height: 400px;
+            /*background-color: #00072e;*/
+
+            #title_one_grid_footer {
+                margin: 0px 0px 0px 0px;
+                color: #fff;
+                font-size: 18px;
+                font-weight: bold;
+            }
+
+            #content_one_grid_footer {
+                margin: 20px 0px 0px 0px;
+
+                td {
+                    padding: 5px 0px 5px 0px;
+                }
+
+                a:hover {
+                    color: #fff;
+                }
+                
+                #short_description_one_grid_footer {
+                    color: #fff;
+                    font-size: 14px;
+                    padding: 0px 2% 0px 0px;
+                }
+            }
+
+            
+        }
+    }
+
+    #bottom_bar_section {
+        width: 100%;
+        height: 60px;
+        margin: 40px 0px 0px 0px;
+        background-color: #000313;
+    }
 }

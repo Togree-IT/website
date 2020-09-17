@@ -927,7 +927,7 @@ body {
 }
 
 #newsletter_section #title_newsletter_section {
-  width: 50%;
+  width: 44%;
   margin: 0px auto 0px auto;
   text-align: center;
 }
@@ -937,31 +937,36 @@ body {
 }
 
 #newsletter_section #input_field_newsletter_section {
-  overflow: auto;
-  width: 60%;
+  width: 50%;
   margin: 40px auto 0px auto;
-  padding: 0;
-  border: 2px solid #009b4e;
+  padding: 0px 0.6px 0px 0px;
   border-radius: 10px;
 }
 
 #newsletter_section #input_field_newsletter_section #email_input_field_newsletter {
   width: 80%;
   height: 50px;
-  padding: 10px 2% 10px 2%;
+  padding: 10px 3% 10px 2%;
   border-radius: 10px 0px 0px 10px;
   border: none;
   font-size: 20px;
+  border: 2px solid #bbb;
+}
+
+#newsletter_section #input_field_newsletter_section #email_input_field_newsletter:focus {
+  border: 2px solid #009b4e;
 }
 
 #newsletter_section #input_field_newsletter_section #button_newsletter_section {
   float: right;
-  width: 18%;
+  width: 19.2%;
   height: 50px;
   background-color: #009b4e;
   border: none;
+  border-radius: 0px 8px 8px 0px;
   color: #fff;
   cursor: pointer;
+  font-size: 16px;
 }
 
 #newsletter_section #input_field_newsletter_section #button_newsletter_section:hover {
@@ -971,10 +976,58 @@ body {
 
 #footer_section {
   width: 100%;
-  height: 550px;
   margin: 80px 0px 0px 0px;
+  padding: 80px 0px 0px 0px;
   background-color: #00041a;
   -webkit-clip-path: polygon(32% 7%, 100% 0, 100% 100%, 0 100%, 0 0);
           clip-path: polygon(32% 7%, 100% 0, 100% 100%, 0 100%, 0 0);
+}
+
+#footer_section #grid_footer_section {
+  width: 92%;
+  margin: 0px auto 0px auto;
+  display: -ms-grid;
+  display: grid;
+  grid-column-gap: 2%;
+  grid-row-gap: 0px;
+  -ms-grid-columns: (minmax(0, 1fr))[5];
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+#footer_section #grid_footer_section #one_grid_footer_section {
+  height: 400px;
+  /*background-color: #00072e;*/
+}
+
+#footer_section #grid_footer_section #one_grid_footer_section #title_one_grid_footer {
+  margin: 0px 0px 0px 0px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#footer_section #grid_footer_section #one_grid_footer_section #content_one_grid_footer {
+  margin: 20px 0px 0px 0px;
+}
+
+#footer_section #grid_footer_section #one_grid_footer_section #content_one_grid_footer td {
+  padding: 5px 0px 5px 0px;
+}
+
+#footer_section #grid_footer_section #one_grid_footer_section #content_one_grid_footer a:hover {
+  color: #fff;
+}
+
+#footer_section #grid_footer_section #one_grid_footer_section #content_one_grid_footer #short_description_one_grid_footer {
+  color: #fff;
+  font-size: 14px;
+  padding: 0px 2% 0px 0px;
+}
+
+#footer_section #bottom_bar_section {
+  width: 100%;
+  height: 60px;
+  margin: 40px 0px 0px 0px;
+  background-color: #000313;
 }
 /*# sourceMappingURL=main.css.map */
