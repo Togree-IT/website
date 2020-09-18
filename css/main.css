@@ -1013,8 +1013,12 @@ body {
   padding: 5px 0px 5px 0px;
 }
 
+#footer_section #grid_footer_section #one_grid_footer_section #content_one_grid_footer a {
+  color: #ccc;
+}
+
 #footer_section #grid_footer_section #one_grid_footer_section #content_one_grid_footer a:hover {
-  color: #fff;
+  color: #009b4e;
 }
 
 #footer_section #grid_footer_section #one_grid_footer_section #content_one_grid_footer #short_description_one_grid_footer {
@@ -1092,6 +1096,7 @@ body {
 #footer_section #grid_footer_section #one_grid_footer_section #content_one_grid_footer span a {
   font-size: 18px;
   font-weight: bold;
+  color: #009b4e;
 }
 
 #footer_section #grid_footer_section #one_grid_footer_section #content_one_grid_footer span a:hover {

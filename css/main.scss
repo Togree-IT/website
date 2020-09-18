@@ -1025,8 +1025,12 @@ body {
                     padding: 5px 0px 5px 0px;
                 }
 
-                a:hover {
-                    color: #fff;
+                a {
+                    color: #ccc;
+
+                    &:hover {
+                        color: color(green_color);
+                    }
                 }
                 
                 #short_description_one_grid_footer {
@@ -1105,6 +1109,7 @@ body {
                     a {
                         font-size: 18px;
                         font-weight: bold;
+                        color: color(green_color);
 
                         &:hover {
                             color: #00c563;
